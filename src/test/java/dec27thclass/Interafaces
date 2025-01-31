@@ -1,0 +1,23 @@
+What is an Interface?
+
+Interface is similar to class which does not have any implementations.
+It is a way to achieve 100% abstraction in java.
+It is a way to achieve multiple inheritance.
+it is a way to achieve loose coupling in java ----> Loose cpouplng is a design pattern which promotes
+ a system where each of its components has, or makes use of, little or no knowledge of the definitions of
+ other separate components.
+
+ Each and every method in interface is public by default.
+ Each and every variable in Interface is public, static or final by default.
+
+ From Java8 onwards we can have default and static methods in the interface, but they do not be a
+ part of the abstract methods
+
+In Layman Interface serves as a contact between the class and outside world.
+If a class implements the interface, it is bound to provide the implementation of all the methods declared in
+the interface
+
+Different types of interfaces
+1.FUnctional Interface----> we can have only one abstract method. 80% of JAVA works on abstract methods
+2.Normal Interface
+3.Marker Interface---> replaced it with annotations
