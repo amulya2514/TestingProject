@@ -1,0 +1,78 @@
+src/main ---> This is used to write generic utilities of framework
+src/test ---->This is where we write actual testcases or do the actual coding
+pom.xml - It is the heart of any maven project because it can manage external libraries and execute the code in our absence
+
+src/main/java and src/test/java ----> it consists of only coding related files
+
+src/test/resources and src/main/resouces ---> it consists of non-coding related files
+-------------------------------------------------------------------------------------------------------------
+First we need top create package under src/main/java or src/main resources
+
+Package - Camel case
+Class - pascal Case
+
+shortcut for System.out.println - sout+enterkey
+
+
+-----------------------------------*****************************------------------------------------------------------------------------------
+28th Nov
+Shortcut for main method is
+type main followed by enter key
+
+BODMAS rule
+Bracket of Division Multiplication Addition Subtraction
+
+prinln statement prints the data onto the console and moves the cursor to the next line
+Hello World on console and cursor will move and blink on to the next line
+
+print statement prints data on to the console
+When we divide integer with an integer without any decima;l we have to consider
+
+JDK 21 new feature to add data on print statement
+
+STR---> String templates
+\{} ---> add the values in the curly braces
+
+To print any sort of error messages - output will be printed inred color
+serr followed by enter is shorcut  to generate System.error.println()
+
+--------------------------------------------------------------------------
+variable: temporary storage of data and values
+ because scope of execution is during the execution time of the program
+ once the execution is completed then all the variables will be vanished or erased offin JVM
+
+ Rules to be followed for declaring a variable name
+ 1.It should always start with a small letter ( good pratice
+ 2.It should not start with any numbers or special characters
+ 3.Variable names should not have any white spaces between them(we can use underscore_ symbol instead of a white space
+ 4. Variable names should not have any java keywords(57)
+
+ syntax of declaring a variable
+ datatype variable name
+
+ Java is a statically type language ----> we need to mention the data type explicitly
+ Along with java , C#, typescript
+ python, JS are dynamically typed languages ----> we need not mention any data to store the values
+
+ Different types of datatypes:
+ 1.Primitive datatype: int, char, boolean, byte, short, long, float, double
+ 2.Non-Primitive datatype: string,array, list etc........
+
+  int a1; // accepts range of values from -2^31 to 2^31-1 (occupies 4 bytes of memory in JVM)
+  char b2; // accepts a simgle value like 'A', 'K', '4', '^', ' '(occupies 2 bytes of memory in JVM)
+  long c3; // accepts range of values from -2^63 to 2^63-1 (occupies 8 bytes of memory in JVM)
+  double d4;// accepts upto 16 signifcant digits (16 decimal points) (occupies 8 bytes of memory in JVM)
+  byte e5; //accepts a range of value from -128 to 127 (occupies 1 byte of memory in JVM)
+  float f6; // accepts upto 5 signifcant digits (5 decimal points) (occupies 4 bytes of memory in JVM)
+  boolean g7; // accepts true or false (occupies 1 byte of memory in JVM)
+  short h8;// accepts a range of values -32768 to 32768 (occupies 2 bytes of memory in JVM)
+
+  Syntax of intializing a variable
+  a1=-4925;
+  b2='^';// always we need to writ within ' ' quotes
+  c3=98235892L; // L is written at the end to indicate it is a long value
+  d4=8.21125562;
+  e5=-28;
+  f6=9421.214f; // f is written at the end to indicate it is a float value
+  g7=false;
+  h8=5923;
